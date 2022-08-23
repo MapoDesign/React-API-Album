@@ -14,9 +14,9 @@ function App() {
   const [photos, setPhotos] = useState([]);
   const [albums, setAlbums] = useState([]);
   const [users, setUsers] = useState([]);
-   const [userSelected, setSelectedUser] = useState(0);
+   const [userSelected, setSelectedUser] = useState(1);
 
- const [albumSelected, setSelectedAlbum] = useState(0);
+ const [albumSelected, setSelectedAlbum] = useState(1);
   useEffect(() => {
     const getPhotos = async () => {
 
